@@ -1,16 +1,10 @@
-# Na grafike
-__________
 1. Obliczanie rozmiaru bitmapy, np.   
-    `
-    Rozmiar = 10cm x 5 cm -> 4i x 2i.
-    Jakosc = 300dpi.
-    Kolor = grayscale = 8b = 1B.
+    Rozmiar = 10cm x 5 cm -> 4i x 2i.  
+    Jakosc = 300dpi.  
+    Kolor = grayscale = 8b = 1B.  
     dlugosc * jakosc * wysokosc * jakosc * kolor = 4 * 300 * 2 * 300 * 8b = 5 760 000b = 720 000 ~ 703 KB.
-    `
 2. Co to jest ( podstawowe definicje ):
-    - w oku:
-        - preciki -> receptory jasnosci( fotopowe )
-        - czopki -> receptory barw ( skotopowe )
+    - w oku preciki -> receptory jasnosci( fotopowe ) i czopki -> receptory barw ( skotopowe )
     - OpenGl -> Biblioteka Graficzna ( Graphic Library )
     - jednostka swiatlosci -> kandela (cd.)
     - piksel -> najmniejszy jednolity (przedstawiający konkretny kolor) element obrazu 
@@ -19,9 +13,7 @@ __________
     - histogram -> rozklad empiryczny cechy ( wykres ile czegos jest - zapewne chodzi o rozklad kolorow )
     - gamut -> jakis okreslony zbior kolorow, np. zakres barw danego urzadzenia
     - punkt bieli w modelu CIE XYZ -> punkt o jednakowych wspolrzednych X Y Z ( wykres chromatycznosci )
-    - barwa:
-        - dominujaca -> jakies cos z wykresu XYZ - barwa czysta dla jakiegos punktu
-        - dopelniajaca -> to samo co wyzej tylko inne, nie pytajcie mnie
+    - barwa dominujaca (barwa czysta dla jakiegos punktu) i dopelniajaca -> jakies cos z wykresu XYZ
 3. Modele odbicia oswietlenia lokalnego:
     - Phong -> 
     - Cook-Torrence -> 
